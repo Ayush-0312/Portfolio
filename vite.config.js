@@ -9,7 +9,7 @@ export default defineConfig({
   assetsInclude: ["**/*.glb"],
   resolve: {
     alias: {
-      "three/examples/js/libs/stats.min": path.resolve(__dirname, "src/libs/stats.min.js"),
+      "three/examples/js/libs/stats.min": path.resolve(__dirname, "src/libs/stats-shim.js"),
     },
   },
 });
