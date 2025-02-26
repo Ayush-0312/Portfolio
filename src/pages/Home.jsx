@@ -32,15 +32,14 @@ const Home = () => {
 
   const adjustIslandForScreenSize = () => {
     let screenScale = null;
-    let screenPosition = [0, -6.5, -43];
-    let rotation = [0.1, 4.7, 0];
+    let screenPosition = [0, -6.5, -43.4];
 
     if (window.innerWidth < 768) {
       screenScale = [0.9, 0.9, 0.9];
     } else {
       screenScale = [1, 1, 1];
     }
-    return [screenScale, screenPosition, rotation];
+    return [screenScale, screenPosition];
   };
 
   const adjustPlaneForScreenSize = () => {
@@ -56,8 +55,7 @@ const Home = () => {
     return [screenScale, screenPosition];
   };
 
-  const [islandScale, islandPosition, islandRotation] =
-    adjustIslandForScreenSize();
+  const [islandScale, islandPosition] = adjustIslandForScreenSize();
 
   const [planeScale, planePosition] = adjustPlaneForScreenSize();
 
@@ -85,7 +83,7 @@ const Home = () => {
           <Island
             position={islandPosition}
             scale={islandScale}
-            rotation={islandRotation}
+            rotation={[0.1, 4.7077, 0]}
             isRotating={isRotating}
             setIsRotating={setIsRotating}
             setCurrentStage={setCurrentStage}
@@ -94,7 +92,7 @@ const Home = () => {
             isRotating={isRotating}
             scale={planeScale}
             position={planePosition}
-            rotation={[0, 20, 0]}
+            rotation={[0, 20.1, 0]}
           />
         </Suspense>
       </Canvas>
