@@ -124,12 +124,12 @@ export const socialLinks = [
   {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/YourGitHubUsername",
+    link: GITHUB,
   },
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/YourLinkedInUsername",
+    link: LINKEDIN,
   },
 ];
 
@@ -139,8 +139,8 @@ export const projects = [
     theme: "btn-back-red",
     name: "Netflix-GPT",
     description:
-      "Developed a high-performance, mobile-responsive React app with seamless video streaming, ChatGPT-powered movie search, and secure authentication using Firebase.",
-    link: "https://github.com/Ayush-0312/Netflix-GPT",
+      "Developed a high-performance, mobile-responsive React app with seamless video streaming, ChatGPT-powered movie search, and secure authentication using Firebase. [Demo UserID/Password - User005@gmail.com/User@005]",
+    link: "https://netflixgpt-850bf.web.app/",
   },
   {
     iconUrl: foodie_icon,
@@ -148,6 +148,6 @@ export const projects = [
     name: "Foodie",
     description:
       "Built a fast and interactive food ordering app using React, with real-time Swiggy API data, smooth performance with Shimmer UI and lazy loading, and easy deployment on Netlify with automatic updates from GitHub.",
-    link: "https://github.com/Ayush-0312/Foodie",
+    link: "https://foodie-001.netlify.app/",
   },
 ];
