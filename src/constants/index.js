@@ -76,16 +76,16 @@ export const skills = [
     name: "GitHub",
     type: "Version Control",
   },
-  // {
-  //   imageUrl: express,
-  //   name: "Express",
-  //   type: "Backend",
-  // },
-  // {
-  //   imageUrl: mongodb,
-  //   name: "MongoDB",
-  //   type: "Database",
-  // },
+  {
+    imageUrl: express,
+    name: "Express",
+    type: "Backend",
+  },
+  {
+    imageUrl: mongodb,
+    name: "MongoDB",
+    type: "Database",
+  },
   // {
   //   imageUrl: motion,
   //   name: "Motion",
@@ -96,11 +96,11 @@ export const skills = [
   //   name: "Material-UI",
   //   type: "Frontend",
   // },
-  // {
-  //   imageUrl: nextjs,
-  //   name: "Next.js",
-  //   type: "Frontend",
-  // },
+  {
+    imageUrl: nextjs,
+    name: "Next.js",
+    type: "Frontend",
+  },
 
   // {
   //   imageUrl: sass,
@@ -108,11 +108,11 @@ export const skills = [
   //   type: "Frontend",
   // },
 
-  // {
-  //   imageUrl: typescript,
-  //   name: "TypeScript",
-  //   type: "Frontend",
-  // },
+  {
+    imageUrl: typescript,
+    name: "TypeScript",
+    type: "Frontend",
+  },
 ];
 
 export const socialLinks = [
