@@ -24,6 +24,10 @@ export const GITHUB = "https://github.com/Ayush-0312";
 
 export const LINKEDIN = "https://www.linkedin.com/in/ayush-gupta-41484b234/";
 
+export const AVATAR = "https://avatars.githubusercontent.com/u/175679849?v=4";
+
+export const PORTFOLIO = "https://www.theayushgupta.in/";
+
 const foodie_icon =
   "https://img.freepik.com/premium-vector/stylish-3d-pink-letter-f-icon_462839-414.jpg?w=360";
 
