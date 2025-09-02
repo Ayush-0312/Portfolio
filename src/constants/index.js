@@ -34,6 +34,12 @@ const foodie_icon =
 const netflix_icon =
   "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico";
 
+const UNO_icon =
+  "https://st2.depositphotos.com/3867453/9096/v/450/depositphotos_90960462-stock-illustration-letter-u-logo-icon-design.jpg";
+
+const devTinder_icon =
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlsiql5ahPw5k8Z1yYlxy1tXs2eUA_ll5vRQ&s";
+
 export const skills = [
   {
     imageUrl: html,
@@ -139,19 +145,33 @@ export const socialLinks = [
 
 export const projects = [
   {
+    iconUrl: UNO_icon,
+    theme: "btn-back-red",
+    name: "UNO",
+    description: "A real-time multiplayer UNO game.",
+    link: "https://uno.theayushgupta.in/",
+  },
+  {
     iconUrl: netflix_icon,
     theme: "btn-back-red",
     name: "Netflix-GPT",
     description:
-      "Developed a high-performance, mobile-responsive React app with seamless video streaming, ChatGPT-powered movie search, and secure authentication using Firebase. [Demo UserID/Password - User005@gmail.com/User@005]",
-    link: "https://netflixgpt-850bf.web.app/",
+      "A smart movie recommendation platform using ChatGPT to suggest trending and personalized content.",
+    link: "https://netflix.theayushgupta.in/",
+  },
+  {
+    iconUrl: devTinder_icon,
+    theme: "btn-back-blue",
+    name: "DevTinder",
+    description:
+      "A full-stack matchmaking platform enabling real-time profile swiping.",
+    link: "http://devtinder.theayushgupta.in/",
   },
   {
     iconUrl: foodie_icon,
     theme: "btn-back-orange",
     name: "Foodie",
-    description:
-      "Built a fast and interactive food ordering app using React, with real-time Swiggy API data, smooth performance with Shimmer UI and lazy loading, and easy deployment on Netlify with automatic updates from GitHub.",
+    description: "A food ordering web app featuring real-time restaurant data.",
     link: "https://foodie-001.netlify.app/",
   },
 ];
