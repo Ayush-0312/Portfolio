@@ -40,6 +40,9 @@ const UNO_icon =
 const devTinder_icon =
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlsiql5ahPw5k8Z1yYlxy1tXs2eUA_ll5vRQ&s";
 
+const Ash_Reads_icon =
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUTJ7iFzABoQZZltRCNKgvRId_Uvf3-3Pt2g&s";
+
 export const skills = [
   {
     imageUrl: html,
@@ -144,6 +147,13 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: Ash_Reads_icon,
+    theme: "btn-back-green",
+    name: "Ash Reads",
+    description: "Portfolio website for bibliophile Ash.",
+    link: "https://ash-reads.vercel.app/",
+  },
   {
     iconUrl: UNO_icon,
     theme: "btn-back-red",
