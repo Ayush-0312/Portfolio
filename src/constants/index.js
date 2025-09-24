@@ -43,6 +43,9 @@ const devTinder_icon =
 const Ash_Reads_icon =
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUTJ7iFzABoQZZltRCNKgvRId_Uvf3-3Pt2g&s";
 
+const TgChat_icom =
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI3sfz1bnhgS8yIUvZC6lhyJduJyJF4jopFA&s";
+
 export const skills = [
   {
     imageUrl: html,
@@ -147,6 +150,14 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: TgChat_icom,
+    theme: "btn-back-blue",
+    name: "Tg Chat",
+    description:
+      "A platform offering lightning-fast chat and crystal-clear video calls.",
+    link: "https://tgchat.theayushgupta.in/",
+  },
   {
     iconUrl: Ash_Reads_icon,
     theme: "btn-back-green",
