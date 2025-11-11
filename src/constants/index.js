@@ -43,8 +43,11 @@ const devTinder_icon =
 const Ash_Reads_icon =
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUTJ7iFzABoQZZltRCNKgvRId_Uvf3-3Pt2g&s";
 
-const TgChat_icom =
+const TgChat_icon =
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI3sfz1bnhgS8yIUvZC6lhyJduJyJF4jopFA&s";
+
+const linkify_icon =
+  "https://e7.pngegg.com/pngimages/224/773/png-clipart-paper-clip-computer-icons-email-attachment-blue-paper-clip-icon-miscellaneous-text.png";
 
 export const skills = [
   {
@@ -151,7 +154,15 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: TgChat_icom,
+    iconUrl: linkify_icon,
+    theme: "btn-back-blue",
+    name: "Linkify",
+    description:
+      "A sleek and powerful link management platform built to track performance and simplify sharing.",
+    link: "https://linkify.theayushgupta.in/",
+  },
+  {
+    iconUrl: TgChat_icon,
     theme: "btn-back-blue",
     name: "Tg Chat",
     description:
