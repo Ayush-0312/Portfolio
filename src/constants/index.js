@@ -50,7 +50,7 @@ const linkify_icon =
   "https://e7.pngegg.com/pngimages/224/773/png-clipart-paper-clip-computer-icons-email-attachment-blue-paper-clip-icon-miscellaneous-text.png";
 
 const macbookpro_icon =
-  "https://www.iconsdb.com/icons/preview/black/apple-xxl.png";
+  "https://www.svgrepo.com/show/303110/apple-black-logo.svg";
 
 export const skills = [
   {
