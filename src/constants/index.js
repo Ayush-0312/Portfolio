@@ -49,6 +49,9 @@ const TgChat_icon =
 const linkify_icon =
   "https://e7.pngegg.com/pngimages/224/773/png-clipart-paper-clip-computer-icons-email-attachment-blue-paper-clip-icon-miscellaneous-text.png";
 
+const macbookpro_icon =
+  "https://upload.wikimedia.org/wikipedia/commons/1/1b/Apple_logo_grey.svg";
+
 export const skills = [
   {
     imageUrl: html,
@@ -169,19 +172,27 @@ export const projects = [
       "A platform offering lightning-fast chat and crystal-clear video calls.",
     link: "https://tgchat.theayushgupta.in/",
   },
-  {
-    iconUrl: Ash_Reads_icon,
-    theme: "btn-back-green",
-    name: "Ash Reads",
-    description: "Portfolio website for bibliophile Ash.",
-    link: "https://ash-reads.vercel.app/",
-  },
+
   {
     iconUrl: UNO_icon,
     theme: "btn-back-red",
     name: "UNO",
     description: "A real-time multiplayer UNO game.",
     link: "https://uno.theayushgupta.in/",
+  },
+  {
+    iconUrl: macbookpro_icon,
+    theme: "btn-back-black",
+    name: "MacBook Pro",
+    description: "MacBook Pro Landing Page.",
+    link: "https://macbookpro.theayushgupta.in/",
+  },
+  {
+    iconUrl: Ash_Reads_icon,
+    theme: "btn-back-green",
+    name: "Ash Reads",
+    description: "Portfolio website for bibliophile Ash.",
+    link: "https://ash-reads.vercel.app/",
   },
   {
     iconUrl: netflix_icon,
