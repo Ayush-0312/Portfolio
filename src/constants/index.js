@@ -199,7 +199,7 @@ export const projects = [
     theme: "btn-back-red",
     name: "Netflix-GPT",
     description:
-      "A smart movie recommendation platform using ChatGPT to suggest trending and personalized content.",
+      "A smart movie recommendation platform using AI to suggest trending and personalized content.",
     link: "https://netflix.theayushgupta.in/",
   },
   {
