@@ -46,11 +46,12 @@ const Ash_Reads_icon =
 const TgChat_icon =
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI3sfz1bnhgS8yIUvZC6lhyJduJyJF4jopFA&s";
 
-const linkify_icon =
-  "https://e7.pngegg.com/pngimages/224/773/png-clipart-paper-clip-computer-icons-email-attachment-blue-paper-clip-icon-miscellaneous-text.png";
+const linkify_icon = "https://www.svgrepo.com/show/97314/clip.svg";
 
 const macbookpro_icon =
   "https://www.svgrepo.com/show/303110/apple-black-logo.svg";
+
+const webcrawler_icon = "https://www.svgrepo.com/show/192088/spider.svg";
 
 export const skills = [
   {
@@ -156,6 +157,14 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: webcrawler_icon,
+    theme: "btn-back-black",
+    name: "Web Crawler",
+    description:
+      "A CLI Node.js web crawler that finds internal links and ranks pages by frequency.",
+    link: "https://github.com/Ayush-0312/webcrawlerhttp",
+  },
   {
     iconUrl: linkify_icon,
     theme: "btn-back-blue",
