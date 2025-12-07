@@ -31,8 +31,7 @@ export const PORTFOLIO = "https://www.theayushgupta.in/";
 const foodie_icon =
   "https://img.freepik.com/premium-vector/stylish-3d-pink-letter-f-icon_462839-414.jpg?w=360";
 
-const netflix_icon =
-  "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico";
+const netflix_icon = "https://freesvg.org/img/1281718271.png";
 
 const UNO_icon =
   "https://st2.depositphotos.com/3867453/9096/v/450/depositphotos_90960462-stock-illustration-letter-u-logo-icon-design.jpg";
@@ -206,10 +205,10 @@ export const projects = [
   {
     iconUrl: netflix_icon,
     theme: "btn-back-red",
-    name: "Netflix-GPT",
+    name: "Cinemix",
     description:
       "A smart movie recommendation platform using AI to suggest trending and personalized content.",
-    link: "https://netflix.theayushgupta.in/",
+    link: "https://cinemix.theayushgupta.in/",
   },
   {
     iconUrl: devTinder_icon,
