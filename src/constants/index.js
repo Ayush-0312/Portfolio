@@ -50,7 +50,7 @@ const linkify_icon = "https://www.svgrepo.com/show/97314/clip.svg";
 const macbookpro_icon =
   "https://www.svgrepo.com/show/303110/apple-black-logo.svg";
 
-const webcrawler_icon = "https://www.svgrepo.com/show/192088/spider.svg";
+const webcrawler_icon = "https://www.svgrepo.com/svg/532662/spider-widow";
 
 export const skills = [
   {
