@@ -52,6 +52,8 @@ const macbookpro_icon =
 
 const webcrawler_icon = "https://www.svgrepo.com/show/532662/spider-widow.svg";
 
+const dropby_icon = "https://www.svgrepo.com/show/475645/dropbox-color.svg";
+
 export const skills = [
   {
     imageUrl: html,
@@ -156,6 +158,14 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: dropby_icon,
+    theme: "btn-back-blue",
+    name: "Dropby",
+    description:
+      "A cloud storage web application that allows users to securely upload, store, and manage files.",
+    link: "https://dropby.theayushgupta.in/",
+  },
   {
     iconUrl: webcrawler_icon,
     theme: "btn-back-black",
