@@ -37,7 +37,7 @@ const UNO_icon =
   "https://st2.depositphotos.com/3867453/9096/v/450/depositphotos_90960462-stock-illustration-letter-u-logo-icon-design.jpg";
 
 const devTinder_icon =
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlsiql5ahPw5k8Z1yYlxy1tXs2eUA_ll5vRQ&s";
+  "https://res.cloudinary.com/dgltfvtmm/image/upload/v1777906514/logo_k2p1w4.avif";
 
 const Ash_Reads_icon =
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUTJ7iFzABoQZZltRCNKgvRId_Uvf3-3Pt2g&s";
@@ -226,7 +226,7 @@ export const projects = [
     name: "DevTinder",
     description:
       "A full-stack matchmaking platform enabling real-time profile swiping.",
-    link: "http://devtinder.theayushgupta.in/",
+    link: "https://devtinder.theayushgupta.in/",
   },
   {
     iconUrl: foodie_icon,
