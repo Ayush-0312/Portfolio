@@ -222,7 +222,7 @@ export const projects = [
   },
   {
     iconUrl: devTinder_icon,
-    theme: "btn-back-blue",
+    theme: "btn-back-black",
     name: "DevTinder",
     description:
       "A full-stack matchmaking platform enabling real-time profile swiping.",
